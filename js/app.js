@@ -59,7 +59,7 @@ function random() {
 //  change between hands
 function change() {
     let count = 0;
-    let sound = new Audio('.../sounds/H2REUSJ-orchestral-suspense.mp3');
+    let sound = new Audio('./sounds/H2REUSJ-orchestral-suspense.mp3');
     sound.play();
     let i = 0;
     let kk = setInterval(() => {

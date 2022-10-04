@@ -83,19 +83,19 @@ function change() {
 // result The Game
 function result() {
     if (you.children[0].classList[1].toLowerCase() === 'paper' && (pc.children[pc.children.length - 1].classList[1].toLowerCase() === 'rock' || pc.children[pc.children.length - 1].classList[1].toLowerCase() === 'spock')) {
-        createElementResult('You Win', 1, '../sounds/success-1-6297.mp3',you);
+        createElementResult('You Win', 1, './sounds/success-1-6297.mp3',you);
 
     } else if (you.children[0].classList[1].toLowerCase() === 'rock' && (pc.children[pc.children.length - 1].classList[1].toLowerCase() === 'scissors' || pc.children[pc.children.length - 1].classList[1].toLowerCase() === 'lizard')) {
-        createElementResult('You Win', 1, '../sounds/success-1-6297.mp3',you);
+        createElementResult('You Win', 1, './sounds/success-1-6297.mp3',you);
 
     } else if (you.children[0].classList[1].toLowerCase() === 'scissors' && (pc.children[pc.children.length - 1].classList[1].toLowerCase() === 'paper' || pc.children[pc.children.length - 1].classList[1].toLowerCase() === 'lizard')) {
-        createElementResult('You Win', 1, '../sounds/success-1-6297.mp3',you);
+        createElementResult('You Win', 1, './sounds/success-1-6297.mp3',you);
 
     } else if (you.children[0].classList[1].toLowerCase() === 'lizard' && (pc.children[pc.children.length - 1].classList[1].toLowerCase() === 'paper' || pc.children[pc.children.length - 1].classList[1].toLowerCase() === 'spock')) {
-        createElementResult('You Win', 1, '../sounds/success-1-6297.mp3',you);
+        createElementResult('You Win', 1, './sounds/success-1-6297.mp3',you);
 
     } else if (you.children[0].classList[1].toLowerCase() === 'spock' && (pc.children[pc.children.length - 1].classList[1].toLowerCase() === 'scissors' || pc.children[pc.children.length - 1].classList[1].toLowerCase() === 'rock')) {
-        createElementResult('You Win', 1, '../sounds/success-1-6297.mp3',you);
+        createElementResult('You Win', 1, './sounds/success-1-6297.mp3',you);
 
     } else if (you.children[0].classList[1].toLowerCase() === pc.children[pc.children.length - 1].classList[1].toLowerCase()) {
         let h2 = document.createElement('h2');
@@ -105,9 +105,9 @@ function result() {
     } else {
         if (score.innerHTML > 0) {
             // score.innerHTML--;
-            createElementResult('You Lose', -1, '../sounds/mixkit-player-losing-or-failing-2042.wav',pc);
+            createElementResult('You Lose', -1, './sounds/mixkit-player-losing-or-failing-2042.wav',pc);
         } else {
-            createElementResult('You Lose', '', '../sounds/mixkit-player-losing-or-failing-2042.wav',pc);
+            createElementResult('You Lose', '', './sounds/mixkit-player-losing-or-failing-2042.wav',pc);
 
         }
     }

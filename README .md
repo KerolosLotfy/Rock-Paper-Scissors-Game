@@ -10,7 +10,8 @@ Sample Rock Paper  Scissors Game  Player VS CPU
 [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH).
     
 ### Links:- 
-    **[My Demo](https://keroloslotfy.github.io/Rock-Paper-Scissors-Game/)**
+    **[My Demo](https://keroloslotfy.github.io/Rock-Paper-Scissors-Game)**
+    [Add solution URL here](https://your-solution-url.com)
     
 ### Used Lang:-
  - HTML

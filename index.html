@@ -1,83 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor | Rock, Paper, Scissors</title>
     <!-- style -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.css" />
     <!-- favicon  -->
-    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-
-</head>
-
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>Rock Paper Scissors</h1>
-            <div class="score">
-                <p>score</p>
-                <div class="num"></div>
-            </div>
+  <body>
+    <div class="main-container">
+      <!-- Header -->
+      <div class="header">
+        <div class="container">
+          <h1>Rock Paper Scissors lizard spock</h1>
+          <div class="score">
+            <p>score</p>
+            <div class="num"></div>
+          </div>
         </div>
+      </div>
 
-        <div class="img  active">
-            <div class="cricle paper">
-                <img src="./images/icon-paper.svg" alt="" class=" icon">
-            </div>
-            <div class="cricle rock">
-                <img src="./images/icon-rock.svg" alt="" class=" icon">
-            </div>
-            <div class="cricle scissors">
-                <img src="./images/icon-scissors.svg" alt="" class=" icon">
-            </div>
-            <div class="cricle lizard">
-                <img src="./images/icon-lizard.svg" alt="" class=" icon">
-            </div>
-            <div class="cricle spock">
-                <img src="./images/icon-spock.svg" alt="" class=" icon">
-            </div>
+      <!-- Img -->
+      <div class="img active">
+        <div class="circle" id="paper">
+          <img src="./images/icon-paper.svg" alt="" class="icon" />
         </div>
-        
-        <div class="game  ">
-            <div class="icons">
-                <div class="you ">
-                    <div class="cricle paper ">
-                        <img src="./images/icon-paper.svg" alt="" class=" icon">
-                    </div>
-                </div>
-                
-                <div class="result">
-                    <div class="again">PLAY Again</div>
-                </div>
-                <div class="pc"></div>
-            </div>
+        <div class="circle" id="rock">
+          <img src="./images/icon-rock.svg" alt="" class="icon" />
         </div>
+        <div class="circle" id="scissors">
+          <img src="./images/icon-scissors.svg" alt="" class="icon" />
+        </div>
+        <div class="circle" id="lizard">
+          <img src="./images/icon-lizard.svg" alt="" class="icon" />
+        </div>
+        <div class="circle" id="spock">
+          <img src="./images/icon-spock.svg" alt="" class="icon" />
+        </div>
+      </div>
+      <!-- Game -->
+      <div class="game">
+        <div class="icons">
+          <div class="you">
+            <div class="circle paper">
+              <img src="./images/icon-paper.svg" alt="" class="icon" />
+            </div>
+          </div>
+
+          <div class="result">
+            <div class="again">PLAY Again</div>
+          </div>
+          <div class="pc"></div>
+        </div>
+      </div>
     </div>
-    
+
     <div class="data">
-        <div class="name">HI, <span></span></div>
-        <div class="btn">Rules</div>
+      <div class="name">HI, <span></span></div>
+      <div class="btn">Rules</div>
     </div>
 
-    <div class="rules ">
-        <h3>Rules</h3>
-        <span class="close">
-            <img src="./images/icon-close.svg" alt="">
-        </span>
-        <img src="./images/image-rules-bonus.svg" alt="">
+    <div class="rules">
+      <h3>Rules</h3>
+      <span class="close">
+        <img src="./images/icon-close.svg" alt="" />
+      </span>
+      <img src="./images/image-rules-bonus.svg" alt="" />
     </div>
-    
-    <div class="footer">made by <a href="http://keroloslotfy.github.io/portfolio" target="_blank" rel="noopener" title="My Portfolio">Kerolos</span></div>
+
+    <div class="footer">
+      made by
+      <a
+        href="http://keroloslotfy.github.io/portfolio"
+        target="_blank"
+        rel="noopener"
+        title="My Portfolio"
+        >Kerolos</a
+      >
+    </div>
     <script src="./js/app.js"></script>
-</body>
-
+  </body>
 </html>
